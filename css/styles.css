@@ -1,0 +1,62 @@
+@import url('https://use.fontawesome.com/releases/v5.5.0/css/all.css');
+.radius {
+  border-radius: 5px;
+  border: solid 3px #ffffff;
+}
+.middleflex {
+  display: flex;
+  align-items: center;
+}
+h1 {
+  color: #108bd9;
+  margin-top: 70px;
+  margin-bottom: 20px;
+}
+h3 {
+  color: #108bd9;
+}
+.btn {
+  background-color: #108bd9;
+  color: white;
+}
+.intro {
+  min-height: 100vh;
+}
+.hello {
+  text-align: left;
+  margin: 0;
+  font-size: 5vw;
+}
+.bordure {
+  border-left: solid #10828c 3px;
+}
+.arrondi {
+  background-color: #108bd9;
+  border-top-right-radius: 100%;
+  position: relative;
+  color: white;
+  text-align: center;
+  margin-top: -24px;
+}
+.arrondi:hover {
+  margin-top: -83px;
+  height: 83px;
+  line-height: 80px;
+}
+.jumbotron {
+  height: 100vh;
+  background: transparent;
+}
+.jumbotron:before {
+  content: '';
+  background-image: url(https://picsum.photos/1600/1000?image=50);
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: .50;
+  z-index: -1;
+}

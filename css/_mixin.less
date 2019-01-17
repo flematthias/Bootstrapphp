@@ -1,0 +1,29 @@
+.radius {
+    border-radius: @radius;
+    border: @border;
+}
+
+.middleflex {
+    display: flex;
+    align-items: center;
+}
+
+.square(@size) {
+    width: @size;
+    height: @size;
+}
+
+.margintoptext () {
+    p {
+        margin-top: @margintoptext;
+    }
+}
+
+.effetphoto () {
+    background-size: 100%;
+    transition: all 0.4s ease-out;
+
+    &:hover {
+        background-size: 120%;
+    }
+}
